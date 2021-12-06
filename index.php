@@ -52,7 +52,7 @@
             <input type = "password" class = "form-control"
                name = "password" placeholder = "password = 1234" required>
             <button class = "btn btn-lg btn-primary btn-block" type = "submit" 
-               name = "login">Login</button>
+               name = "login">Log in</button>
          </form>
 			
          Click here to clean <a href = "index.php" tite = "Logout">Session.
