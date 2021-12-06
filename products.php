@@ -1,10 +1,13 @@
 <?php
-    //name this "products.php"
-    $products = array (
-        array("name" => "Whoop-ass", "price" => "9.99", "description" => "Its a can of whoop-ass"),
-        array("name" => "Mouse", "price" => "54.95", "description" => "No, it's not real. It's a gaming mouse. 9200 DPI"),
-        array("name" => "iPad", "price" => "Too expensive", "description" => "Something you never need, but something you want"),
-        array("name" => "Stack Overflow", "price" => "9001.00", "description" => "The best website in the world."),
-        array("name" => "Generic item 5", "price" => "4.99", "description" => "It says 4.99, but deep in your heart, you know its really 5 dollars.")
+    $productLænestole = array (
+        array("name" => "Nobel 8900", "price" => "14.995 kr.", "description" => "Nobels smukke, slanke og ædle udtryk passer til en indretning, der værdsætter det enkle udtryk med fokus på materialer i bedste kvalitet. Her er der nemlig tale om et produkt, hvor der er kælet for detaljen. Træets åre står smukt frem og alle samlinger står snorlige – lavet til at holde i generationer."),
+        array("name" => "Nobel 8929", "price" => "15.595 kr.", "description" => "Nobel 8920 slanke og ranke ryg giver et royalt og ædelt udtryk med flotte nordiske træk. Det giver en nostalgisk charme, som man kun kan glædes over, når man samtidigt nyder godt af den fantastiske siddekomfort, der på alle måder er indarbejdet i denne perle af dansk design."),
+        array("name" => "Munin 6360", "price" => "36.455 kr.", "description" => ""),
+    );
+
+    $productStabelstole = array (
+        array("name" => "2550 Stag W", "price" => "4.370 kr.", "description" => "Stag W 2550 er et pragteksemplar, når det kommer til kombination af siddekomfort og dansk design. Stag- serien er designet med tydelige referencer til det stolte danske varemærke – kronhjorten. Selv råmaterialerne forbindes med kvalitet, styrke og holdbarhed og netop disse nøgleord er også indtænkt i Stag-seriens design."),
+        array("name" => "2500 Stag S", "price" => "4.215 kr.", "description" => "Den stilrene og stabelbare stol 2500 Stag S er designet ud fra et afsæt om at skabe en moderne klassiker med høj siddekomfort. Stag S vil egne sig til middage, møder og andre gode stunder omkring bordet"),
+
     );
 ?>
