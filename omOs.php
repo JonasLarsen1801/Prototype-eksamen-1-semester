@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Jonem</title>
+		<title>Farstrup</title>
 		<link rel="stylesheet" type="text/css" href="main.css" />
 	</head>
 
@@ -10,7 +10,7 @@
 
 		<header>
 			<nav>
-				<h1>BL Venti</h1>
+				<h1>Farstrup</h1>
 				<ul>
                     <li><a href="index.php">Hjem</a></li>
 					<li>Om os</li>

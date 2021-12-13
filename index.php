@@ -2,14 +2,14 @@
 <html>
 
 	<head>
-		<title>faustrup</title>
+		<title>Farstrup</title>
 		<link rel="stylesheet" type="text/css" href="main.css"/>
 	</head>
 
 	<body>
 		<header>
 			<nav>
-				<h1> logo kommer her <img src="/Users/jonaslarsen/OneDrive/Jonem/Hjemmside test/Logo/FaviconLogo.png"/> </h1>
+				<h1>Farstrup</h1>
 				<ul>
 					<li>Hjem</li>
 					<li><a href="omOs.php">Om os</a></li>
@@ -20,7 +20,7 @@
 			</nav>
 		</header>
 
-		<h2>Velkommen til faustrup</h2>
+		<h2>Velkommen til Farstrup</h2>
 
 		<div class="row">
 			<div class="col">col1</div>

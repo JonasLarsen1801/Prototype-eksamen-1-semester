@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Faustrup</title>
+		<title>Farstrup</title>
 		<link rel="stylesheet" type="text/css" href="main.css" />
         
 	</head>
@@ -10,7 +10,7 @@
 	<body>
 		<header>
 			<nav>
-				<h1>Faustrup</h1>
+				<h1>Farstrup</h1>
 				<ul>
                     <li><a href="index.php">Hjem</a></li>
 					<li><a href="omOs.php">Om os</a></li>
@@ -21,7 +21,7 @@
 			</nav>
 		</header>
 		
-		<h2>Velkommen til Faustups produkter</h2>
+		<h2>Velkommen til Farstups produkter</h2>
 		<p>Kilk på det ønskede produkt for at kunne tilpasse det</p>
 
         <style>

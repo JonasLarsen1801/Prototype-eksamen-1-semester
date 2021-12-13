@@ -2,14 +2,14 @@
 <html>
 
 	<head>
-		<title>Faustrup</title>
+		<title>Farstrup</title>
 		<link rel="stylesheet" type="text/css" href="main.css" />
 	</head>
 
 	<body>
 		<header>
 			<nav>
-				<h1>faustrup</h1>
+				<h1>Farstrup</h1>
 				<ul>
                     <li><a href="index.php">Hjem</a></li>
 					<li><a href="omOs.php">Om os</a></li>
@@ -21,8 +21,8 @@
 		</header>
 
 		
-		<h2>Velkommen til Faustrup</h2>
-		<p>Velkommen til Faustrup</p>
+		<h2>Velkommen til Farstrup</h2>
+		<p>Velkommen til Farstrup</p>
 
 	</body>
 
