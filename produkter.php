@@ -47,28 +47,28 @@
         </style>
 
         <div class="gallery">
-			<a target="_blank" href="designProdukter/2550StageW.php">
+			<a target="_blank" href="designProdukter2550StageW/2550StageW.php">
                 <img src="imgProdukter/2550StageW.jpeg" alt="2550 Stage W" width="600" height="400">
             </a>
             <div class="desc">2550 Stage W</div>
 		</div>
 
         <div class="gallery">
-			<a target="_blank" href=".php">
+			<a target="_blank" href="designProdukter2500StageS/2500StageS.php">
                 <img src="imgProdukter/2500StageS.jpeg" alt="2500 Stage S" width="600" height="400">
             </a>
             <div class="desc">2500 Stage S</div>
 		</div>
 
         <div class="gallery">
-			<a target="_blank" href="imgProdukter/Nobel8900.jpeg">
+			<a target="_blank" href="designProdukterNobel8900/Nobel8900.php">
                 <img src="imgProdukter/Nobel8900.jpeg" alt="Nobel 8900" width="600" height="400">
             </a>
             <div class="desc">Nobel 8900</div>
 		</div>
 
         <div class="gallery">
-			<a target="_blank" href="imgProdukter/Nobel8920.jpeg">
+			<a target="_blank" href="designProdukterNobel8920/Nobel8920.php">
                 <img src="imgProdukter/Nobel8920.jpeg" alt="Nobel 8920" width="600" height="400">
             </a>
             <div class="desc">Nobel 8920</div>

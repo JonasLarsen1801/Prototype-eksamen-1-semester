@@ -24,8 +24,6 @@ include("./controller.php");
     </select>
         <button type="submit">Læg i kurv</button>
     </form>
-
-
         <ul>
             <?php foreach(hentFraFil() as $i => $kurv) { ?>
                 <li>
@@ -34,7 +32,6 @@ include("./controller.php");
                 </li>
             <?php } ?>
         </ul>
-
     <div>
         <h2>Indhold af din kurv</h2>
             <?php foreach(hentFraFil() as $i => $kurv) { ?>
@@ -43,9 +40,21 @@ include("./controller.php");
                     <a href="?i=<?php echo $i; ?>"></a>
                 </li>
             <?php } ?>
-            <button type="submit">bekræft køb</button>
-            <h3>Total prisen: 4.370 Kr.</h3>
-    </div>
+            <H4>
+                <form method="post">
+                    <input type="submit" name="bekræftKøb"
+                            class="button" value="Bekræft køb" />
+                </form>
+                <?php
+                    if(array_key_exists('bekræftKøb', $_POST)) {
+                        bekræftKøb();
+                    }
 
+                    function bekræftKøb() {
+                        echo "Tak for dit køb af 2550 Stage W. Vi sender varen inden for 3-5 hverdage. Den endelige pris blev: 4.370 Kr.";
+                    }
+                ?>
+            </H4>
+    </div>
 </body>
-</html>
+</html> 
