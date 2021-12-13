@@ -1,39 +1,29 @@
 <?php
-function onSave() {
-    //print_r($_POST["note"]);
-    saveToFile($_POST['note']);
+function gem() {
+    gemIFilen($_POST['kurv']);
 }
 
-function saveToFile($note) {
-    $notesArray = getFromFile();
-    $notesArray[] = $note;
-    $jsonNotes = json_encode($notesArray);
+function gemIFilen($kurv) {
+    $indkøbskurvensArray = hentFraFil();
+    $indkøbskurvensArray[] = $kurv;
+    $jsonKurv = json_encode($indkøbskurvensArray);
 
-    file_put_contents("./notes.json", $jsonNotes);
+    file_put_contents("./kurv.json", $jsonKurv);
 }
 
-function getFromFile() {
-    $jsonNotes = file_get_contents("./notes.json");
-    $notesArray = json_decode($jsonNotes, true);
-    return $notesArray;
+function hentFraFil() {
+    $jsonKurv = file_get_contents("./kurv.json");
+    $indkøbskurvensArray = json_decode($jsonKurv, true);
+    return $indkøbskurvensArray;
 }
 
-function deleteItem($index) {
-    $notesArray = getFromFile();
-    unset($notesArray[$index]);
+function sletValgtProdukt($index) {
+    $indkøbskurvensArray = hentFraFil();
+    unset($indkøbskurvensArray[$index]);
 
-    $jsonNotes = json_encode($notesArray);
+    $jsonKurv = json_encode($indkøbskurvensArray);
 
-    file_put_contents("./notes.json", $jsonNotes);
+    file_put_contents("./kurv.json", $jsonKurv);
     header("Location: 2550StageW.php");
 }
-
-$stageW = "Total pris: 15000";
-$egetræPris = "1000";
-
-function Indsætpris(int $stageW , $egetræPris){
-    return $stageW + $egetræPris;
-}
-
-
 ?>

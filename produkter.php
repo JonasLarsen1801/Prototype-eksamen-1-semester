@@ -16,7 +16,6 @@
 					<li><a href="omOs.php">Om os</a></li>
 					<li><a href="kontakt.php">Kontakt</a></li>
 					<li>Produkter</li>
-					<li><a href="strategiskudvikling.php">Strategiskudvikling</a></li>
 				</ul>
 			</nav>
 		</header>

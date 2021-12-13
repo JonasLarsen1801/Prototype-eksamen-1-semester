@@ -13,7 +13,7 @@ include("./controller.php");
 <body>
     <H1>Tilpasning af 2550 Stage W</H1>
     <form method="post">
-    <select name="note" for="produkt" action="confirmation.php">
+    <select name="kurv" for="produkt" action="confirmation.php">
         <option value="Intet valgt" disable selected>Tilpas her</option>
         <option value="Egetræ">Egetræ</option>
         <option value="Bøgetræ">Bøgetræ</option>
@@ -27,9 +27,9 @@ include("./controller.php");
 
 
         <ul>
-            <?php foreach(getFromFile() as $i => $note) { ?>
+            <?php foreach(hentFraFil() as $i => $kurv) { ?>
                 <li>
-                    <?php echo $note;?>
+                    <?php echo $kurv;?>
                     <a href="?i=<?php echo $i; ?>">Slet</a>
                 </li>
             <?php } ?>
@@ -37,14 +37,14 @@ include("./controller.php");
 
     <div>
         <h2>Indhold af din kurv</h2>
-            <?php foreach(getFromFile() as $i => $note) { ?>
+            <?php foreach(hentFraFil() as $i => $kurv) { ?>
                 <li>
-                    <?php echo $note;?>
+                    <?php echo $kurv;?>
                     <a href="?i=<?php echo $i; ?>"></a>
                 </li>
             <?php } ?>
             <button type="submit">bekræft køb</button>
-            <h3><?php echo "Totalt pris: " + $stageW ?></h3>
+            <h3>Total prisen: 4.370 Kr.</h3>
     </div>
 
 </body>

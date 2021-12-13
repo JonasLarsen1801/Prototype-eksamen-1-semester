@@ -1,9 +1,9 @@
 <?php
-if(isset($_POST["note"])) {
-    onSave();
+if(isset($_POST["kurv"])) {
+    gem();
 }
 
 if(isset($_GET['i'])) {
-    deleteItem($_GET['i']);
+    sletValgtProdukt($_GET['i']);
 }
 ?>
