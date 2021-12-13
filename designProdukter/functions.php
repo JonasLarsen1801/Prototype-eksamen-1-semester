@@ -27,4 +27,13 @@ function deleteItem($index) {
     file_put_contents("./notes.json", $jsonNotes);
     header("Location: 2550StageW.php");
 }
+
+$stageW = "Total pris: 15000";
+$egetræPris = "1000";
+
+function Indsætpris(int $stageW , $egetræPris){
+    return $stageW + $egetræPris;
+}
+
+
 ?>
