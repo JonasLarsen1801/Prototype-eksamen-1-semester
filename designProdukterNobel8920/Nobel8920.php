@@ -2,7 +2,7 @@
 include("./functions.php");
 include("./controller.php");
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html>8 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
